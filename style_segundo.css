@@ -1,71 +1,71 @@
-body{
-    background:linear-gradient(45deg,#393838,#080000);
+body {
+    
+    align-items: center;
     display: flex;
     flex-direction: column;
-    align-items: center;
 }
-.Titulo{
+
+.Titulo {
     background-color: #393838;
     width: 80%;
     height: 50px;
     margin-bottom: 20px;
     padding: 10px;
     font-size: 50px;
-    color: #f0e9e9;
+    color: #14dd0d;
     align-items: center;
     border: none;
     border-radius: 8px;
     display: flex;
-    justify-content: center;   
+    justify-content: center;
 }
-.Intro iframe{
-    border: 0px;
-    width: 392px;
-    height: 100%;
-}
-.Barra_boton{
-    margin-top: 20px;
-}
-.Barra_lateral{
+
+.barra_lateral {
     position: fixed;
-    left: -250px;
+    left: -250px; 
     top: 0;
     bottom: 0;
-    width: 80px;
-    background-color: rgba(64, 60,60,0.8);
+    width: 250px;
+    background-color: rgba(58, 196, 69, 0.8); 
     transition: left 0.3s ease;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
-.Barra_lateral button{
-    width: 80px;
-    height: 80px;
+
+.barra_lateral button {
+    width: 80%; 
+    height: 50px;
     border: none;
-    background-color: #faf7f7;
+    background-color: transparent;
     cursor: pointer;
-    padding: 0;
+    margin-bottom: 20px;
+    padding-left: 10px;
+    text-align: left;
 }
-.Barra_lateral button.btInico{
-    background-image: url('incio..png');
+
+.barra_lateral button.btnHome {
+    background-image: url('Home.png');
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center left;
 }
-.Barra_lateral button.btnsiguiente{
-    background-image: url('siguiente.png');
+
+.barra_lateral button.btnSiguiente {
+    background-image: url('Flecha_Dere.png');
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center left;
 }
-.Barra_lateral button.btnregreso{
-    background-image: url('siguiente.png');
+
+.barra_lateral button.btnAnterior {
+    background-image: url('Flecha_Izq.png');
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center left;
 }
-.Barra_lateral button:hover{
-    background-color: #ddd;
-    
+
+.barra_lateral button:hover {
+    background-color: #706767;
 }
